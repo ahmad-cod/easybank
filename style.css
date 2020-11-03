@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* text-align: center; */
+    font-family: 'Source Serif Pro', serif;
 }
 a {
     text-decoration: none;
@@ -74,7 +74,7 @@ main {
     display: block;
 }
 .links a {
-    display: block;
+    /* display: block; */
     text-decoration: none;
     text-align: center;
 }
@@ -108,6 +108,7 @@ section h3, section p {
 }
 
 article h2 {
+    margin-top: 15px;
     text-align: center;
 }
 
