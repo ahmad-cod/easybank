@@ -86,7 +86,7 @@
     }
     section p {
         text-align: start;
-        font-size: 1rem;
+        font-size: .9rem;
     }
     section h2, section > p {
         padding: 0 5%;
