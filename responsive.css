@@ -88,6 +88,9 @@
         text-align: start;
         font-size: .9rem;
     }
+    footer p {
+        font-size: .75rem;
+    }
     section h2, section > p {
         padding: 0 5%;
     }
