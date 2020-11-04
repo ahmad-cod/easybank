@@ -1,7 +1,45 @@
-@media screen and (min-width: 375px){
+@media screen and (min-width: 445px){
 
+    * {
+        font-size: 1.25rem;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10px;
+        font-size: 2rem;
+    }
+    #checkbtn {
+        display: none;
+    }
     .links {
         display: block;
+    }
+    .links a { 
+        display: inline-block;
+        margin: 0 8px;
+        padding: 10px;
+        line-height: 40px;
+        font-size: 1.5rem;
+        transition: .1s;
+        /* float: right; */
+    }
+
+    .main-article h1 {
+        font-size: 2.3rem;
+    }
+    .main-article p {
+        font-size: 1.2rem;
+    }
+    
+    .logo img {
+        width: 150%;
+        padding: 15px;
+    }
+    .links a:hover {
+        color: hsl(220, 16%, 96%);
+        background: linear-gradient(110deg, hsl(136, 60%, 52%), hsl(192, 70%, 51%));
+        transform: scaleX(1.3);
     }
 
     .main {
@@ -9,27 +47,67 @@
         flex-direction: row-reverse;
     }
     .main-article {
-        padding: 5%;
+        padding: 10% 5% 0 7%;
+        justify-content: start;
+        align-items: stretch;
+        flex-basis: 50%;
+        text-align: start;
         /* display: flex; */
         /* flex-direction: column; */
     }
+    .btn {
+        padding: .87rem;
+        width: 10rem;
+        margin: 20px 0;
+    }
+
     section {
         padding: 5%;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding: 3% 5% 0;
     }
     .section-articles, .all-articles {
         display: flex ;
         flex-direction: row;
         justify-content: space-around;
     }
-    .all-articles {
-        padding: 3% 8%;
+
+    article {
+        background: hsl(220, 16%, 98%);
+        padding: 5% 8%;
     }
+
+    article h2, section h2 {
+        text-align: start;
+        padding: 2% 0;
+        font-size: 2rem;
+    }
+    section p {
+        text-align: start;
+        font-size: 1.2rem;
+    }
+    section h2, section > p {
+        padding: 0 5%;
+    }
+    
     .articles {
-        margin: 0 14px;
+        margin: 0 14px 0 0;
+        background: hsl(0, 0%, 100%);
+    }
+
+    .article {
+        background: hsl(0, 99%, 100%);
     }
     footer {
         display: flex;
         justify-content: space-around;
+    }
+    .attribution {
+        display: none;
     }
     
 }

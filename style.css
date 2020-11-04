@@ -9,7 +9,7 @@ a {
 }
 
 h1, h2, h3 {
-    color: hsl(233, 26%, 24%);
+    color: hsl(233, 61%, 31%);
 }
 p {
     color: hsl(233, 8%, 62%);
@@ -74,7 +74,7 @@ main {
     display: block;
 }
 .links a {
-    /* display: block; */
+    display: block;
     text-decoration: none;
     text-align: center;
 }
