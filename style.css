@@ -10,6 +10,7 @@ a {
 
 h1, h2, h3 {
     color: hsl(233, 61%, 31%);
+    font-family: 'Amiri', serif;
 }
 p {
     color: hsl(233, 8%, 62%);
