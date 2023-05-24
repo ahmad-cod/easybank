@@ -3,6 +3,11 @@
     * {
         font-size: 1.25rem;
     }
+    .overall-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-inline: 2rem;
+    }
     nav {
         display: flex;
         justify-content: space-between;

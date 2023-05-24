@@ -37,16 +37,15 @@ main {
     /* justify-content: center;
     align-items: center; */
 }
-.main-images {
-    background-image: url('images/bg-intro-mobile.svg');
-}
-.main-images img {
-    width: 100%;
-}
+
 .main-images{
     background-image: url("images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
-
+    background-position: right;
+}
+.main-images img {
+    /* max-height: 100vh; */
+    z-index: 10;
 }
 
 .main-article {
@@ -119,8 +118,11 @@ article h2 {
 }
 
 .articles {
-    margin: 25px auto;
+    margin: 25px 12px;
     background: hsl(220, 16%, 96%);
+}
+.articles img {
+    width: 100%;
 }
 .article {
     padding: 25px;
